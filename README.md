@@ -1,4 +1,3 @@
-```markdown
 # Mr. Bin - Commodity Recycle and Exchange Platform
 
 ![Mr. Bin Logo](./logo.png)
