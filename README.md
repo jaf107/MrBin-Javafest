@@ -1,5 +1,3 @@
-Certainly! Here's the modified README file with the added line mentioning that it's for JavaFest 2023 organized by Therap:
-
 ```markdown
 # Mr. Bin - Commodity Recycle and Exchange Platform
 
