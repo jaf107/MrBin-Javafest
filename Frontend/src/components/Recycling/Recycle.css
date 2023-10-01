@@ -1,0 +1,28 @@
+.recycle .counterRow {
+  background: linear-gradient(
+      0deg,
+      rgba(49, 49, 49, 0.747),
+      rgba(49, 49, 49, 0.733)
+    ),
+    url("../../assets/recyclecover.png");
+  min-height: 300px;
+}
+.recycler-card {
+  min-height: 400px;
+}
+
+.recycle .btn:hover {
+  color: white !important;
+  background-color: #20c1bd !important;
+  border: 0px !important;
+}
+
+.recycle .btn {
+  color: #20c1bd !important;
+  background-color: white !important;
+  border: 1px solid black !important;
+}
+.itemsCard {
+  border: 1px solid black;
+  border-radius: 5px;
+}

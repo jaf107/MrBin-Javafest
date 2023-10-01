@@ -1,0 +1,43 @@
+.file-input-label {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.file-input-label input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.file-input-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #ccc; /* You can customize the background color */
+  color: #fff; /* You can customize the text color */
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.file-input-label::before {
+  content: "+";
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Add styles to make it look more like a button */
+.file-input-button:hover {
+  background-color: #aaa; /* You can customize the hover color */
+}

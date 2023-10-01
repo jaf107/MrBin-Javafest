@@ -1,0 +1,67 @@
+/* Add this CSS to your stylesheets */
+.custom-upload-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #20c1bd; /* Change the background color to your preference */
+  color: #fff; /* Text color */
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.object_detection_page {
+  /* background-color: rgb(250, 250, 250); */
+  padding-bottom: 20px;
+}
+
+.custom-upload-button:hover {
+  background-color: #196765; /* Change the hover background color to your preference */
+}
+
+/* Style the file input to be hidden */
+#file-input {
+  display: none;
+}
+
+/* Style the uploaded image */
+#input-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Style the loading indicator */
+p.loading {
+  font-size: 18px;
+  color: #007bff; /* Loading text color */
+}
+
+/* Style the detected objects list */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+/* Add this CSS to your stylesheets */
+#detect-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ff5722; /* Change the background color to your preference */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#detect-button:hover {
+  background-color: #e64a19; /* Change the hover background color to your preference */
+}

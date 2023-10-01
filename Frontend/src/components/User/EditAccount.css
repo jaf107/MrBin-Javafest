@@ -1,0 +1,70 @@
+.edit_box {
+  /* height: 530px; */
+}
+.file-input-label {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.file-input-label input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.file-input-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  background-color: #ccc; /* You can customize the background color */
+  color: #fff; /* You can customize the text color */
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.file-input-label::before {
+  /* content: "+"; */
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Add styles to make it look more like a button */
+.file-input-button:hover {
+  background-color: #aaa; /* You can customize the hover color */
+}
+
+.desc_col {
+  padding-right: 10px;
+  border-right: 1px dotted #ccc;
+}
+/* Style the Edit button */
+.edit-button {
+  background-color: #1998c7; /* Orange background color */
+  width: 15%;
+  font-weight: bold;
+  font-size: 3rem;
+  color: white; /* White text color */
+  padding: 10px 20px; /* Add padding to make the button larger */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Add rounded corners */
+  font-size: 16px; /* Increase font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Add a smooth color transition */
+}
+
+/* Style the Edit button on hover */
+.edit-button:hover {
+  background-color: #044679; /* Darker orange on hover */
+}

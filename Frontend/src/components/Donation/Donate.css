@@ -1,0 +1,34 @@
+.donate .middle{
+    margin: 20px 40%;
+}
+
+.donate .counterRowD{
+    background:linear-gradient(0deg, rgba(49, 49, 49, 0.747), rgba(49, 49, 49, 0.733)), url('../../assets/aid.jpg');
+    min-height: 300px;
+    
+}
+
+.donate .center{
+    text-align: center;
+}
+
+.donate .white{
+    color: white;
+}
+
+.donate .wheat{
+    background-color: whitesmoke;
+}
+
+
+.donate .btn:hover{
+    color: black !important;
+    background-color: white !important;
+    border: 1px solid !important;
+}
+
+.donate .btn{
+    color: white !important;
+    background-color: #20C1BD !important;
+    border: 1px solid whitesmoke !important;
+}

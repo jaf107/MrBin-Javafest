@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Product 1",
+    "category": "Electronics",
+    "address": "123 Sample Street",
+    "isVerified": true,
+    "quantity": 10,
+    "condition": "new",
+    "images": [
+      {
+        "public_id": "image1",
+        "url": "https://example.com/image1.jpg"
+      },
+      {
+        "public_id": "image2",
+        "url": "https://example.com/image2.jpg"
+      }
+    ],
+    "user": "user_id_1",
+    "product_type": "marketplace",
+    "description": "This is a sample product description.",
+    "date_of_purchase": "2023-09-20",
+    "purchase_price": 100.0,
+    "comments": [
+      {
+        "user_name": "JohnDoe",
+        "user_id": "commenter_user_id_1",
+        "comment_body": "This is a sample comment."
+      }
+    ]
+  },
+  {
+    "name": "Product 2",
+    "category": "Clothing",
+    "address": "456 Sample Avenue",
+    "isVerified": false,
+    "quantity": 5,
+    "condition": "used",
+    "images": [
+      {
+        "public_id": "image3",
+        "url": "https://example.com/image3.jpg"
+      }
+    ],
+    "user": "user_id_2",
+    "product_type": "marketplace",
+    "description": "Another sample product description.",
+    "date_of_purchase": "2023-09-19",
+    "purchase_price": 50.0,
+    "comments": [
+      {
+        "user_name": "JaneDoe",
+        "user_id": "commenter_user_id_2",
+        "comment_body": "This is another sample comment."
+      }
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+.bio-graph-heading {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 40px;
+  font-style: normal;
+  font-family: "Calibri";
+  word-spacing: 3px;
+  letter-spacing: 3px;
+}
+
+.bio-row {
+  width: 100%;
+  margin: 10px;
+  /* display: ; */
+  /* border: 1px solid red; */
+}
+.bio-attribute {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 5px;
+  /* letter-spacing: 1px; */
+}
+.bio-row span {
+  font-weight: 500;
+  font-size: 19px;
+  margin-right: 3px;
+  /* display: inline-block; */
+  /* border: 1px solid black; */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  padding: 20px;
+}
+
+.details-col {
+  flex: 1;
+
+  /* border-right: 1px solid #ccc; Add a border to separate the two columns */
+  box-sizing: border-box;
+}
+
+.image-col {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #ccc;
+}
+
+.dashboard_profile_img {
+  max-width: 60%; /* Ensure the image doesn't exceed the width of its container */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+.roles {
+  font-size: 15px;
+  /* font-weight: 500; */
+}

@@ -1,0 +1,20 @@
+.flex {
+  display: flex;
+}
+
+.search_bar {
+  width: 65rem;
+  padding: 10px;
+
+  /* margin-right: 10px; */
+}
+.rounded_edge {
+  border-radius: 10px;
+}
+
+.search_button {
+  border-radius: 200px;
+  margin-left: 10px;
+  /* padding: 10px; */
+  cursor: pointer;
+}
